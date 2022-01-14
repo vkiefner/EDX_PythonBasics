@@ -1,2 +1,30 @@
 print("Test")
 
+# Strings stride
+
+Name="Iris Apfel" 
+Name[::2]
+'Ii pe'
+
+#Slicing
+Name[0:4:2]
+'Ii'
+
+len=("Iris Apfel" )
+
+#Concatenate or combine strings
+Statement=Name+" is badass"
+
+*Tuples
+3*"Iris Apfel"
+
+#Escape Sequences
+print("Iris Apfel \n is Badass")
+*\n represents a new line
+*\t represents a tab
+*\\ represents a backslash
+
+#String methods
+NAME=name.upper()
+STATEMENT=Statement.replace('is badass','IS BADASS')
+Name.find('Ap')
